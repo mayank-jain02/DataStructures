@@ -1,0 +1,20 @@
+package com.linkedlist.Practise;
+
+public class Node<T> {
+
+	private T data;
+	private Node<T> next;
+	
+	public T getData() {
+		return data;
+	}
+	public void setData(T data) {
+		this.data = data;
+	}
+	public Node<T> getNext() {
+		return (Node<T>) next;
+	}
+	public void setNext(Node<T> next) {
+		this.next = next;
+	}
+}
